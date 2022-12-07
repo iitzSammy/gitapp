@@ -5,10 +5,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>修改產品成功</title>
+<title>查詢所有產品</title>
 </head>
 <body>
-	修改產品 OK!
-
+	<div>
+		<form action="<c:url value='/ProductListServlet.do'/>" method="POST">
+			<input type="submit" value="查詢所有產品" />
+		</form>
+	</div>
 </body>
 </html>
